@@ -4,9 +4,20 @@
     <meta charset="utf-8">
     <title>陈大斌简介</title>
     <link rel="stylesheet" href="a.css">
+    <script src="//at.alicdn.com/t/font_1104789_i0dtlcschso.js"></script>
+    <style type="text/css">
+        .icon {
+           width: 1em; 
+           height: 1em;
+           vertical-align: -0.15em;
+           fill: currentColor;
+           overflow: hidden;
+        }
+    </style>
 </head>
 <body>
-    <div class="topNavbar clearfix">
+    <div class="topNavbar">
+        <div class="topNavbar-inner clearfix">
         <a class="logo" href="#" alt="logo" style="float:left;">
             <span class="rs">RS</span>
             <span class="card">card</span>
@@ -23,16 +34,20 @@
             </ul>
         </nav>
     </div>
-    <div class="banner" style="background-image: url(#)"></div>
+    </div>
+    <div class="banner">
+        <div class="mask"></div>
+    </div>
     <main>
         <div class="card">
-            <div class="pictureAndText">
+            <div class="pictureAndText clearfix">
                 <div  class="picture">
-                    <img src="1.jpg" alt="头像" width="150px" height="150px">
+                    <img src="1.jpg" alt="头像" width="299px" height="345px" alt="头像">
                 </div>
                 <div class="text">
-                    <div class="profile">
-                        <span class="welcome">Hello</span>
+                        <span class="welcome">Hello
+                            <span class="triangle"></span>
+                        </span>
                         <h1>陈大斌</h1>
                         <p>前端开发工程师</p>
                         <hr>
@@ -46,15 +61,21 @@
                             <dt>手机</dt>
                             <dd>18355093238</dd>
                         </dl>
-                    </div>
                 </div>
             </div>
         <footer class="media">
-            <a href="#"><img src="#" alt="..."></a>
-            <a href="#"><img src="#" alt="..."></a>
-            <a href="#"><img src="#" alt="..."></a>
-            <a href="#"><img src="#" alt="..."></a>
-            <a href="#"><img src="#" alt="..."></a>
+            <a href="#">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-git"></use></svg></a>
+            <a href="#">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-jianshu"></use></svg></a>
+            <a href="#">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-jirengulogoyellow"></use></svg></a>
+            <a href="#">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-iconfontweibo"></use> </svg></a>
         </footer>
     </div>
     <a class="button" href="#">下载PDF简历</a>
